@@ -1,0 +1,113 @@
+[
+    {
+        "id": 677581,
+        "name": "Gătaia",
+        "state": "",
+        "country": "RO",
+        "coord": {
+            "lon": 21.43,
+            "lat": 45.43111
+        }
+    }, 
+    {
+        "id": 683506,
+        "name": "Bucharest",
+        "state": "",
+        "country": "RO",
+        "coord": {
+            "lon": 26.10626,
+            "lat": 44.432251
+        }
+    },
+    {
+        "id": 681290,
+        "name": "Cluj-Napoca",
+        "state": "",
+        "country": "RO",
+        "coord": {
+            "lon": 23.6,
+            "lat": 46.76667
+        }
+    },
+    {
+        "id": 665087,
+        "name": "Timişoara",
+        "state": "",
+        "country": "RO",
+        "coord": {
+            "lon": 21.227221,
+            "lat": 45.749439
+        }
+    },
+    {
+        "id": 2759794,
+        "name": "Amsterdam",
+        "state": "",
+        "country": "NL",
+        "coord": {
+            "lon": 4.88969,
+            "lat": 52.374031
+        }
+    },
+    {
+        "id": 5128581,
+        "name": "New York City",
+        "state": "NY",
+        "country": "US",
+        "coord": {
+            "lon": -74.005966,
+            "lat": 40.714272
+        }
+    },
+    {
+        "id": 5603240,
+        "name": "Paris",
+        "state": "ID",
+        "country": "US",
+        "coord": {
+            "lon": -111.401039,
+            "lat": 42.22715
+        }
+    },
+    {
+        "id": 1850147,
+        "name": "Tokyo",
+        "state": "",
+        "country": "JP",
+        "coord": {
+            "lon": 139.691711,
+            "lat": 35.689499
+        }
+    },
+    {
+        "id": 2618425,
+        "name": "Copenhagen",
+        "state": "",
+        "country": "DK",
+        "coord": {
+            "lon": 12.56553,
+            "lat": 55.675941
+        }
+    },
+    {
+        "id": 2643743,
+        "name": "London",
+        "state": "",
+        "country": "GB",
+        "coord": {
+            "lon": -0.12574,
+            "lat": 51.50853
+        }
+    },
+    {
+        "id": 2950158,
+        "name": "Berlin",
+        "state": "",
+        "country": "DE",
+        "coord": {
+            "lon": 10.45,
+            "lat": 54.033329
+        }
+    }
+]
+
