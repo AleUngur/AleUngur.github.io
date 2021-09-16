@@ -1,5 +1,3 @@
-# AleUngur.github.io
-
 # Personal website
 
 This website serves as a personal portfolio.
