@@ -1,8 +1,8 @@
-# Personal website
+# Personal website 
 
-This website serves as a personal portfolio.
+This website serves as a personal **portfolio**.
 
-## Description
+## Description :information_source:
 
 As I am at an early stage of my career as a front-end developer, I made this website to describe myself.
 
@@ -13,20 +13,21 @@ As I am at an early stage of my career as a front-end developer, I made this web
  * description about me
  * contact details
 
-## Technologies
+## Technologies:pencil:
 
  HTML CSS Bootstrap
 
-## Projects
+## Projects:low_brightness:
  
- The project I included in the website are:
+ The projects I included in the portfolio are:
  * Weather App - Javascript
  * Remember App/To do list - Javascript
- * Portfolio - CSS
- * other projects in the making
+ * Old Portfolio - CSS
+ * other projects in the making :soon:
 
-## Visit the website
+## Go to website:rocket:
 
 I published this project using GitHub Pages. You can access it here: https://aleungur.github.io/
- ## Contact
+
+ ## Contact:arrow_down:
  email: ungur.alexandra.au@gmail.com
