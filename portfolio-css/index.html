@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>  
+  <head>
+    <title>Alexandra Ungur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header>
+        <a  class="logo" href="#">
+            <img src="assets/logo-web.jpg"  alt="logo">
+        </a>
+        <nav class="navigation">
+            <a href="#section-1">Skills</a>
+            <a href="#section-2">Projects</a>
+            <a href="#section-3">About</a>
+            <a href="#section-4">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero section-block">
+      <div>
+        <h1>Hi!</h1>
+      <p>
+        I am Alexandra and I am learning front-end development.<br>
+        I graduated from Electronics, Telecommunications, and Information Technologies college, this year.<br>
+        The web domain always fascinated me, so I wanted to learn more about it.<br>
+        I decided to pursue a front-end developer career.<br>
+        I love creating esthetic visuals through code and see its effect immediately.<br>
+      </p>
+      </div>
+    </section>
+    
+    <section id="section-1" class="section-block green my-skills not-fullscreen">
+      <h2>Skills</h2>
+      <div class="grid clearfix my-skills-inner-container">
+        <div class="grid-box box-third">
+          <h3>HTML</h3>
+          <p>
+                Elements<br/>
+                Containers<br>
+                Semantic HTML5 elements<br>
+                Lists, tables<br>
+                Forms and input controls<br>
+                Embedding media<br>
+                <br>
+          </p>
+          <h3>CSS</h3>
+          <p>
+                Essential CSS properties<br>
+                The box model<br>
+                Measurement units<br>
+                Positioning <br>
+                Styling font and text<br>
+                Flex & grid<br>
+                Media queries<br>
+          </p>
+          <h3>Javascript</h3>
+          <p>
+                Variables,constants and operators<br>
+                Arrays, objects<br>
+                Functions/arrow functions<br>
+                Loops<br>
+                Callbacks<br>
+                Events<br>
+                DOM<br>
+          </p>
+        </div>
+
+        <div class="grid-box box-third">
+          <h3>Bootstrap</h3>
+          <p>
+            Navigation<br>
+            Backgrounds<br>
+            Forms<br>
+            Buttons<br>
+            Cards<br>
+            Grid, columns<br>
+            Containers<br>
+          </p>
+          <h3>C++</h3>
+          <p>
+            Variables and operators<br>
+            Functions<br>
+            Arrays<br>
+            Matrices<br>
+            Strings<br>
+            Recursion<br>
+            <br>
+          </p>
+          <h3>OOP</h3>
+          <p>
+            Class hierarchies<br>
+            Abstraction<br>
+            Inheritance<br>
+            Polymorphism<br>
+            Encapsulation<br>
+            Getters & setters<br>
+            <br>
+          </p>
+        </div>
+        <div class="grid-box box-third">
+          <h3>Java</h3>
+          <p>
+            Objects<br>
+            Functions<br>
+            Attributes<br>
+            Classes<br>
+            Collections<br>
+            <br><br>
+          </p>
+          <h3>SQL</h3>
+          <p>
+            Interrogations<br>
+            Summarization<br>
+            Functions<br>
+            Procedures<br>
+            Views<br>
+            <br><br>
+          </p>
+          <h3>Wordpress</h3>
+          <p>
+            Articles<br>
+            Widgets<br>
+            Tags<br>
+            Menus<br>
+            Categories<br>
+            Forms<br>
+            <br>
+          </p>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <section id="section-2" class="section-block pink my-projects not-fullscreen">
+      <h2>Projects</h2>
+      <div class="grid clearfix my-projects-inner-container">
+        <div class="grid-box box-third">
+          <h3>Weather App</h3>
+          <p>
+            This app is for knowing the weather in different locations. I used <a href="https://https://openweathermap.org/" target="_blank">
+              Open Weather</a> to get the information from the server. I created a function for downloading the information about the weather
+               using the API, and the 'Get' method I coded using Fetch. Another function was for accessing the location I wanted the weather 
+               from, 'Get' was also the method used, but the information was given from a .js document with an array of a few cities. For styling,
+              I used Bootstrap.<br><br>
+              You can access it <a href="weather-app/index.html" target="_blank">
+              here</a>
+          </p>
+        </div>
+
+        <div class="grid-box box-third">
+          <h3>Reminder App</h3>
+          <p>
+            This app is for setting some reminders, it is just like a to-do list. It has the option of writing a task and adding it. I
+            f a task is urgent you can make it appear in red also by clicking a button. Another button is for deleting a task already added.
+             All of this is coded with Javascript, using different functions and loops. For the interface I used Bootstrap.
+             <br><br><br><br><br>
+              You can access it <a href="reminder-app/index.html" target="_blank">
+              here</a>
+          </p>
+        </div>
+        <div class="grid-box box-third">
+          <h3>Bootstrap Portfolio</h3>
+          <p>
+            For creating this website you came from, I got to learn how to use Bootstrap. It was fun and easy. I used elements such as navbar, carousel,
+             cards, buttons, modals. I used grids for arranging the content, for responsiveness. The classes from bootstrap are so useful 
+             for styling, aligning, spacing, coloring and so much more.
+           <br><br><br><br><br><br>
+              You can access it <a href="reminder-app/index.html" target="_blank">
+              here</a>
+         </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-3" class="section-block white">
+      <h2>About me</h2>
+      <div class="about-me-inner-container">
+        <img src="assets/portret1.jpg" alt="portrait">
+        <div>
+          <h3>Hi, I'm Alexandra!</h3>
+          <p>
+            I am a 23 years old girl. This year (2021), I graduated from the Electronics, Telecommunications, and Information technology college. 
+            What I was always focused on was Programming. I loved to write code and solve problems. I learned the basics of C++, C, Phyton, Java, and SQL. <br>
+            I am at an early stage in my career so I'm keen on gaining experience in all fields of software development, however, I've grown to love 
+            front-end development. Something is satisfying about being able to make changes to code and instantly seeing it reflected on a web page for everyone to see. I want to work on bigger projects, besides intelligent and creative people, to learn, to create, to develop. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="section-4" class="section-block green not-fullscreen">
+      <h3>Contact</h3>
+      <a href="mailto:ungur.alexandra.au@gmail.com">E-mail</a>
+      <a href="https://www.linkedin.com/in/alexandra-ungur" target="_blank">LinkedIn</a>
+      <a href="https://github.com/AleUngur" target="_blank">Github</a>
+    </footer>
+
+  </body>
+</html>
+
+  
