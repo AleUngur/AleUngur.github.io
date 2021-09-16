@@ -13,11 +13,11 @@ As I am at an early stage of my career as a front-end developer, I made this web
  * description about me
  * contact details
 
-## Technologies :pencil:
+## Technologies:pencil:
 
  HTML CSS Bootstrap
 
-## Projects :low_brightness:
+## Projects:low_brightness:
  
  The projects I included in the portfolio are:
  * Weather App - Javascript
