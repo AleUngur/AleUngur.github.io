@@ -13,11 +13,11 @@ As I am at an early stage of my career as a front-end developer, I made this web
  * description about me
  * contact details
 
-## Technologies:pencil:
+## Technologies :pencil:
 
  HTML CSS Bootstrap
 
-## Projects:low_brightness:
+## Projects :low_brightness:
  
  The projects I included in the portfolio are:
  * Weather App - Javascript
@@ -25,9 +25,9 @@ As I am at an early stage of my career as a front-end developer, I made this web
  * Old Portfolio - CSS
  * other projects in the making :soon:
 
-## Go to website:rocket:
+## Go to website :rocket:
 
 I published this project using GitHub Pages. You can access it here: https://aleungur.github.io/
 
- ## Contact:arrow_down:
+ ## Contact :arrow_down:
  email: ungur.alexandra.au@gmail.com
