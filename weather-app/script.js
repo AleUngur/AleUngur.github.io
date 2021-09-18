@@ -16,7 +16,7 @@ const kelvinToCelsius = (degrees) => {
 }
 
 
-//functie pt a accesa orasele dorite
+//for accessing the wanted city
 const getCities = () => {
   fetch('cities.json', {  
     method: 'GET',
@@ -41,7 +41,8 @@ const getCities = () => {
   });
 }
 
-//functie pt a downloada informatia despre vreme cu ajutorul API, orasul default este 'Gataia'
+//for downloading the information about the weather with an API
+//the default city is Gataia
 const getWeather = (cityId = 677581) => {
   fetch(`https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${key}`, {  //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=2cd5da4979f6089fd6a424bdb85d11b7
   method: 'GET',
@@ -67,10 +68,8 @@ const getWeather = (cityId = 677581) => {
 getCities();
 getWeather();
 
-//cand alegem alt oras se schimba cityId si se preiau date diferite
+//when a city is chosen cityId  is changing and it downloads different data
 select.addEventListener("change", function(e){ 
   const cityId = e.target.value;
   getWeather(cityId);
 });
-
-//data (ora) ar trebui sa se schimbe in functie de oras, folosind un alt api sau o formula pt a calcula data si ora in functie de locatia mea
