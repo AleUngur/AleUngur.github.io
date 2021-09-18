@@ -43,7 +43,7 @@ const getCities = () => {
 
 //functie pt a downloada informatia despre vreme cu ajutorul API, orasul default este 'Gataia'
 const getWeather = (cityId = 677581) => {
-  fetch(`http://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${key}`, {  //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=2cd5da4979f6089fd6a424bdb85d11b7
+  fetch(`https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${key}`, {  //api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=2cd5da4979f6089fd6a424bdb85d11b7
   method: 'GET',
   })
   .then(response => response.json())
