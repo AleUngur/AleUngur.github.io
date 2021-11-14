@@ -1,456 +1,846 @@
 <!DOCTYPE html>
 
-<html>  
+<html>
   <head>
     <title>Alexandra Ungur</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f49fdf4ce4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f49fdf4ce4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-   <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="assets/logo-web.jpg" alt="logo" class="navbar-logo d-inline-block align-text-top">
+            <img
+              src="assets/logo-web.jpg"
+              alt="logo"
+              class="navbar-logo d-inline-block align-text-top"
+            />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#skills-section">Skills</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#skills-section"
+                  >Skills</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#projects-section">Projects</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#projects-section"
+                  >Projects</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about-section">About</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#about-section"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#contact-section">Contact</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#contact-section"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="assets/web.jpg" class="d-block w-100 carousel-image" alt="img1">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
+          <img
+            src="assets/web.jpg"
+            class="d-block w-100 carousel-image"
+            alt="img1"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="assets/web2.jpg" class="d-block w-100 carousel-image" alt="img2">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
+          <img
+            src="assets/web2.jpg"
+            class="d-block w-100 carousel-image"
+            alt="img2"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
         </div>
         <div class="carousel-item">
-          <img src="assets/web3.jpg" class="d-block w-100 carousel-image" alt="img3">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
+          <img
+            src="assets/web3.jpg"
+            class="d-block w-100 carousel-image"
+            alt="img3"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
-      <section class="py-5" id = "skills-section">
-        <h2 class="text-center mb-5">Skills</h2>
-        <div class = "container">
-          <div class="row">
-            <div class="col-lg-3 col-md-5 mb-2 text-center">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">HTML <i class="fab fa-html5"></i></h5>
-                  <p class="card-text">
-                    Elements (headings, paragraphs, anchors, images, etc)<br/>
-                Containers (div and span)<br>
-                Semantic HTML5 elements (main, section, article, etc)<br>
-                Lists, tables <br>
-                Forms and input controls<br>
-                Embedding media (picture, video and audio)
-                  </p>
-                </div>
+    <section class="py-5" id="skills-section">
+      <h2 class="text-center mb-5">Skills</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-5 mb-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">HTML <i class="fab fa-html5"></i></h5>
+                <p class="card-text">
+                  Elements (headings, paragraphs, anchors, images, etc)<br />
+                  Containers (div and span)<br />
+                  Semantic HTML5 elements (main, section, article, etc)<br />
+                  Lists, tables <br />
+                  Forms and input controls<br />
+                  Embedding media (picture, video and audio)
+                </p>
               </div>
             </div>
-            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">CSS <i class="fab fa-css3-alt"></i></h5>
-                  <p class="card-text">
-                    Selectors & pseudo-selectors<br>
-                Essential CSS properties<br>
-                The box model<br>
-                Measurement units<br>
-                Positioning <br>
-                Styling font and text<br>
-                Flex & grid<br>
-                Media queries<br>
-                <br>
-                  </p>
-                </div>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">CSS <i class="fab fa-css3-alt"></i></h5>
+                <p class="card-text">
+                  Selectors & pseudo-selectors<br />
+                  Essential CSS properties<br />
+                  The box model<br />
+                  Measurement units<br />
+                  Positioning <br />
+                  Styling font and text<br />
+                  Flex & grid<br />
+                  Media queries<br />
+                  <br />
+                </p>
               </div>
             </div>
-            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">JavaScript <i class="fab fa-js"></i></h5>
-                  <p class="card-text">
-                    Variables,constants and operators<br>
-                     Arrays, objects<br>
-                   Functions/arrow functions<br>
-                    Loops<br>
-                   Callbacks<br>
-                   Events<br>
-                   DOM<br>
-                   <br>
-                   <br>
-                  </p>
-                </div>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">JavaScript <i class="fab fa-js"></i></h5>
+                <p class="card-text">
+                  Variables,constants and operators<br />
+                  Arrays, objects<br />
+                  Functions/arrow functions<br />
+                  Loops<br />
+                  Callbacks<br />
+                  Events<br />
+                  DOM<br />
+                  <br />
+                  <br />
+                </p>
               </div>
             </div>
-            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Bootstrap <i class="fab fa-bootstrap"></i></h5>
-                  <p class="card-text">
-                    Navigation<br>
-                Backgrounds<br>
-                Forms<br>
-                Buttons<br>
-                Cards<br>
-                Grid, columns<br>
-                Containers<br>
-                <br>
-                <br>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Bootstrap <i class="fab fa-bootstrap"></i>
+                </h5>
+                <p class="card-text">
+                  Navigation<br />
+                  Backgrounds<br />
+                  Forms<br />
+                  Buttons<br />
+                  Cards<br />
+                  Grid, columns<br />
+                  Containers<br />
+                  <br />
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">C++</h5>
+                <p class="card-text">
+                  Variables and operators<br />
+                  Functions<br />
+                  Arrays<br />
+                  Matrices<br />
+                  Recursion<br />
+                  Strings<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">OOP</h5>
+                <p class="card-text">
+                  Class hierarchies<br />
+                  Abstraction<br />
+                  Inheritance<br />
+                  Polymorphism<br />
+                  Encapsulation<br />
+                  Getters & setters<br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">Java <i class="fab fa-java"></i></h5>
+                <p class="card-text">
+                  Objects<br />
+                  Functions<br />
+                  Attributes<br />
+                  Classes<br />
+                  Collections<br />
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
+            <div class="card border-light mb-3" style="max-width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">SQL</h5>
+                <p class="card-text">
+                  Interrogations<br />
+                  Summarization<br />
+                  Functions<br />
+                  Procedures<br />
+                  Views<br />
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5" id="projects-section">
+      <h2 class="text-center mb-5">My projects</h2>
+      <div class="container">
+        <div class="row">
+          <div
+            class="card col-lg-5 offset-lg-0 col-md-5 offset-md-2 mt-4"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/portfolio-css.JPG"
+              class="card-img-top"
+              alt="img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                First portfolio
+                <span class="badge rounded-pill bg-info text-dark">CSS</span>
+              </h5>
+              <p class="card-text">A simple portofolio using only HTML & CSS</p>
+              <button
+                type="button"
+                class="btn btn-outline-info"
+                data-bs-toggle="modal"
+                data-bs-target="#project-portofolio"
+              >
+                More...
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="project-portofolio"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    First portfolio
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-outline-info"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    For creating this website I got to learn the basics of HTML
+                    and CSS. For the main section I created a navbar and a
+                    banner with an introductory text. For the other parts I
+                    created a grid with three columns. I created media queries
+                    for responsiveness. The classes and ids helped me stylize
+                    everything: text, spacing, colors, images.<br /><br />
+                    Technologies used: HTML + CSS
                   </p>
+                </div>
+                <div class="modal-footer">
+                  <a
+                    class="btn btn-outline-info"
+                    href="portfolio-css/index.html"
+                    role="button"
+                    target="blank"
+                    >Go to site</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-outline-info"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">C++</h5>
-                  <p class="card-text">
-                    Variables and operators<br>
-                Functions<br>
-                Arrays<br>
-                Matrices<br>
-                Recursion<br>
-                Strings<br>
+          <div
+            class="card col-lg-5 offset-lg-2 col-md-5 mt-4"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/guess-the-button.JPG"
+              class="card-img-top"
+              alt="img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Guessing game
+                <span class="badge rounded-pill bg-danger">JavaScript</span>
+              </h5>
+              <p class="card-text">
+                A little guessing game to try out your luck
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#project-guessing-game"
+              >
+                More...
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="project-guessing-game"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Guessing game
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-outline-danger"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Try out your luck. In this game, you can choose the number
+                    of buttons to create, and then you can try to pick the
+                    winning one which is generated randomly.<br /><br />
+                    Technologies used: JavaScript + Bootstrap
                   </p>
+                </div>
+                <div class="modal-footer">
+                  <a
+                    class="btn btn-outline-danger"
+                    href="guess-the-button/index.html"
+                    role="button"
+                    target="blank"
+                    >Go to app</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">OOP</h5>
-                  <p class="card-text">
-                    Class hierarchies<br>
-                Abstraction<br>
-                Inheritance<br>
-                Polymorphism<br>
-                Encapsulation<br>
-                Getters & setters<br>
+          </div>
+          <div
+            class="card col-lg-5 offset-lg-2 col-md-5 offset-md-2 mt-4"
+            style="width: 18rem"
+          >
+            <img src="assets/reminder_app.JPG" class="card-img-top" alt="img" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Reminder App
+                <span class="badge rounded-pill bg-warning text-dark"
+                  >JavaScript</span
+                >
+              </h5>
+              <p class="card-text">A mini-project for adding daily tasks</p>
+              <button
+                type="button"
+                class="btn btn-outline-warning"
+                data-bs-toggle="modal"
+                data-bs-target="#project-reminder"
+              >
+                More...
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="project-reminder"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Reminder app
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-outline-warning"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    This app is for setting some reminders. It has the option of
+                    writing a task and adding it by clicking a button. If a task
+                    is urgent you can make it appear in red color. Also, I added
+                    the option of deleting a task.<br /><br />
+                    Technologies used: JavaScript + Bootstrap + JQuery
                   </p>
+                </div>
+                <div class="modal-footer">
+                  <a
+                    class="btn btn-outline-warning"
+                    href="reminder-app/index.html"
+                    role="button"
+                    target="blank"
+                    >Go to app</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-outline-warning"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center ">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Java <i class="fab fa-java"></i></h5>
-                  <p class="card-text">
-                    Objects<br>
-                Functions<br>
-                Attributes<br>
-                Classes<br>
-                Collections<br>
-                <br>
+          </div>
+
+          <div
+            class="card col-lg-5 offset-lg-0 col-md-5 offset-md-2 mt-4"
+            style="width: 18rem"
+          >
+            <img src="assets/dictionary.jpg" class="card-img-top" alt="img" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Dictionary
+                <span class="badge rounded-pill bg-secondary">JavaScript</span>
+              </h5>
+              <p class="card-text">
+                A little game for creating your own dictionary
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-secondary"
+                data-bs-toggle="modal"
+                data-bs-target="#project-dictionary"
+              >
+                More...
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="project-dictionary"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Dictionary</h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-outline-secondary"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    In this little app, you can introduce words in a dictionary
+                    by adding them one by one. They will be stored in an array
+                    invisible for the user. You can only see if a specific word
+                    is added or not in the dictionary by using the second
+                    form.<br /><br />
+                    Technologies used: JavaScript + Bootstrap
                   </p>
+                </div>
+                <div class="modal-footer">
+                  <a
+                    class="btn btn-outline-secondary"
+                    href="dictionary/index.html"
+                    role="button"
+                    target="blank"
+                    >Go to app</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 text-center">
-              <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                  <h5 class="card-title">SQL</h5>
-                  <p class="card-text">
-                    Interrogations<br>
-                    Summarization<br>
-                   Functions<br>
-                   Procedures<br>
-                   Views<br>
-                   <br>
+          </div>
+          <div
+            class="card col-lg-5 offset-lg-2 col-md-5 mt-4"
+            style="width: 18rem"
+          >
+            <img src="assets/weather_app.JPG" class="card-img-top" alt="img" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Weather App
+                <span class="badge rounded-pill bg-danger">JavaScript</span>
+              </h5>
+              <p class="card-text">
+                A mini-project for knowing the weather in different locations
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-danger"
+                data-bs-toggle="modal"
+                data-bs-target="#project-weather"
+              >
+                More...
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="project-weather"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Weather App
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-outline-danger"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    This app is for knowing the weather in different locations.
+                    You can choose a city from the dropdown menu. The details
+                    about the weather will be displayed below.<br /><br />
+                    Technologies used: JavaScript + Bootstrap
                   </p>
+                </div>
+                <div class="modal-footer">
+                  <a
+                    class="btn btn-outline-danger"
+                    href="weather-app/index.html"
+                    role="button"
+                    target="blank"
+                    >Go to app</a
+                  >
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card col-lg-5 offset-lg-2 col-md-5 offset-md-2 mt-4"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/drawing-ideas.jpg"
+              class="card-img-top"
+              alt="img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Future projects
+                <span class="badge rounded-pill bg-primary text-dark"
+                  >JavaScript</span
+                >
+              </h5>
+              <p class="card-text">
+                I have a list of projects I want to develop soon
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#project-soon"
+              >
+                More...
+              </button>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="project-soon"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Future projects
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-outline-primary"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    * Hangman<br />
+                    * Tic Tac Toe<br />
+                    * Sudoku<br />
+                    * A personal project-will be my biggest project until now, I
+                    didn't think about what it will be, but I want to create
+                    something useful for others<br />
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <!--<a
+                    class="btn btn-outline-primary"
+                    href="#"
+                    role="button"
+                    target="blank"
+                    >Go to app</a
+                  >-->
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="py-5" id = "projects-section">
-        <h2 class="text-center mb-5">My projects</h2>
-        <div class = "container">
-          <div class="row">
-              <div class="card col-lg-5 col-md-5 mt-4" style="width: 18rem;">
-                <img src="assets/weather_app.JPG" class="card-img-top" alt="img">
-                <div class="card-body">
-                  <h5 class="card-title">Weather App <span class="badge rounded-pill bg-danger">JavaScript</span></h5>
-                  <p class="card-text">With this app I coded, I learned about API and how can it be used to get information</p>
-                  <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#project-one">
-                    More...
-                  </button>
-                </div>
-              </div>
-              <!-- Modal -->
-              <div class="modal fade" id="project-one" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Weather App</h5>
-                      <button type="button" class="btn-close btn-outline-danger" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        This app is for knowing the weather in different locations. I used <a href="https://https://openweathermap.org/" target="_blank">
-                        Open Weather</a> to get the information from the server. I created a function for downloading the information about the weather
-                        using the API, and the 'Get' method I coded using Fetch. Another function was for accessing the location I wanted the weather 
-                        from, 'Get' was also the method used, but the information was given from a .js document with an array of a few cities. For styling,
-                        I used Bootstrap.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-outline-danger" href="weather-app/index.html" role="button" target="blank">Go to app</a>
-                      <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-lg-5 offset-lg-2 col-md-5 offset-md-2 mt-4" style="width: 18rem;">
-                <img src="assets/reminder_app.JPG" class="card-img-top" alt="img">
-                <div class="card-body">
-                  <h5 class="card-title">Reminder App <span class="badge rounded-pill bg-warning text-dark">JavaScript</span></h5>
-                  <p class="card-text">This was the first JS app I created. I used loops, different functions, and variables<br><br></p>
-                  <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#project-two">
-                    More...
-                  </button>
-                </div>
-              </div>
-              <!-- Modal -->
-              <div class="modal fade" id="project-two" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Reminder app</h5>
-                      <button type="button" class="btn-close btn-outline-warning" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                       This app is for setting some reminders. It has the option of writing a task and adding it by clicking a button. If a task
-                       is urgent you can make it appear in red color also by clicking a button. Also, I added the option of deleting a task. All
-                        of this is coded with Javascript, using different functions and loops. For the interface I used Bootstrap.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-outline-warning" href="reminder-app/index.html" role="button" target="blank">Go to app</a>
-                      <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-lg-5 offset-lg-2 col-md-5 mt-4" style="width: 18rem;">
-                <img src="assets/portfolio-css.JPG" class="card-img-top" alt="img">
-                <div class="card-body">
-                  <h5 class="card-title">First portfolio <span class="badge rounded-pill bg-info text-dark">CSS</span></h5>
-                  <p class="card-text">I created this portfolio website first, using only HTML & CSS to learn the basics</p>
-                  <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#project-three">
-                    More...
-                  </button>
-                </div>
-              </div>
-              <!-- Modal -->
-              <div class="modal fade" id="project-three" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">CSS Portfolio</h5>
-                      <button type="button" class="btn-close btn-outline-info" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        For creating this website I got to learn the basics of HTML and CSS. It was not that easy. I created a navbar,
-                         a banner with an introductory text. For the rest of the sections I created a grid with three columns. I created 
-                         media queries for responsiveness. The classes and ids helped me stylize everything: text, spacing, colors, images.<br>
-                         I'm glad I could make a website using only HTML and CSS.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-outline-info" href="portfolio-css/index.html" role="button" target="blank">Go to site</a>
-                      <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-lg-5 offset-lg-0 col-md-5 offset-md-2 mt-4" style="width: 18rem;">
-                <img src="assets/quiz-app.jpg" class="card-img-top" alt="img">
-                <div class="card-body">
-                  <h5 class="card-title">Quiz App <span class="badge rounded-pill bg-secondary">JavaScript</span></h5>
-                  <p class="card-text">I will create a quiz using HTML, CSS and JavaScript<br><br></p>
-                  <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#project-four">
-                    More...
-                  </button>
-                </div>
-              </div>
-              <!-- Modal -->
-              <div class="modal fade" id="project-four" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Quiz App</h5>
-                      <button type="button" class="btn-close btn-outline-secondary" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                       I will give more details when it'll be finished.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-outline-secondary" href="#" role="button" target="blank">Go to app</a>
-                      <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-lg-5 offset-lg-2 col-md-5 mt-4" style="width: 18rem;">
-                <img src="assets/photo-album.jpg" class="card-img-top" alt="img">
-                <div class="card-body">
-                  <h5 class="card-title">Photo album <span class="badge rounded-pill bg-success text-dark">CSS</span></h5>
-                  <p class="card-text">I will create a photo album using CSS for displaying some of my favorite photos I took</p>
-                  <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#project-five">
-                    More...
-                  </button>
-                </div>
-              </div>
-              <!-- Modal -->
-              <div class="modal fade" id="project-five" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Photo album</h5>
-                      <button type="button" class="btn-close btn-outline-success" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        I will give more details when it'll be finished.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-outline-success" href="#" role="button" target="blank">Go to app</a>
-                      <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card col-lg-5 offset-lg-2 col-md-5 offset-md-2 mt-4" style="width: 18rem;">
-                <img src="assets/drawing-ideas.jpg" class="card-img-top" alt="img">
-                <div class="card-body">
-                  <h5 class="card-title">Drawing ideas <span class="badge rounded-pill bg-primary text-dark">JavaScript</span></h5>
-                  <p class="card-text">I will create an app to help with the lack of inspiration when it comes to drawing</p>
-                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#project-six">
-                    More...
-                  </button>
-                </div>
-              </div>
-              <!-- Modal -->
-              <div class="modal fade" id="project-six" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Drawing ideas</h5>
-                      <button type="button" class="btn-close btn-outline-primary" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        I will give more details when it'll be finished.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-outline-primary" href="#" role="button" target="blank">Go to app</a>
-                      <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-      </section>
-
-      <section class="py-5" id = "about-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2 bg-light">
-              <h2 class="text-center py-5">About me</h2>
-              <h3 class="mx-4">I'm Alexandra!</h3>
-              <p class="mb-4 mx-4">
-                I am a 23 years old girl. This year (2021), I graduated from the Electronics, Telecommunications, and Information technology college from the Polytechnic University of Timisoara. Four full years of learning all about engineering and IT. What I was always focused on was Programming. I loved to write code and solve problems. I learned the basics of C++, C, Phyton, Java, and SQL. In my senior year, I got into creating websites and designing them. I created a personal site using HTML & CSS, Bootstrap, and a little JavaScript. I enjoyed doing it.
-
-              </p>
-              <h3 class="mx-4">Where I'm from</h3>
-              <p class="mb-4 mx-4">
-                I am from a little town not far from Timisoara, Romania. I grew up drawing, solving math problems, reading, and putting together puzzles. I always considered myself a creative person, a visualizer rather than an analytical person. When I first got into Informatics and coding in high school, I was thrilled. I set my mind that I'm gonna be a programmer someday and I worked hard for it. Of course, it wasn't a pleasant course, rather an exhausting, stress-inducing, and fearful ride. There were so many times I wanted to just quit, but I am glad I didn't. The road is long and I still have so much to do, but I'm happy I disciplined myself and chose this path.  
-              </p>
-              <h3 class="mx-4">Where I'm headed</h3>
-              <p class="mb-4 mx-4">
-                I am at an early stage in my career so I'm keen on gaining experience in all fields of software development, however, I've grown to love front-end development. Something is satisfying about being able to make changes to code and instantly seeing it reflected on a web page for everyone to see. I want to work on bigger projects, besides intelligent and creative people, to learn, to create, to develop. 
-              </p>
-              <h2 class="text-center py-5">'~'</h2>
-            </div>
+    <section class="py-5" id="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 bg-light">
+            <h2 class="text-center py-5">About me</h2>
+            <h3 class="mx-4">I'm Alexandra!</h3>
+            <p class="mb-4 mx-4">
+              I am a 23 years old girl. This year (2021), I graduated from the
+              Electronics, Telecommunications, and Information technology
+              college from the Polytechnic University of Timisoara. Four full
+              years of learning all about engineering and IT. What I was always
+              focused on was Programming. I loved to write code and solve
+              problems. I learned the basics of C++, C, Phyton, Java, and SQL.
+              In my senior year, I got into creating websites and designing
+              them. I created a personal site using HTML & CSS, Bootstrap, and a
+              little JavaScript. I enjoyed doing it.
+            </p>
+            <h3 class="mx-4">Where I'm from</h3>
+            <p class="mb-4 mx-4">
+              I am from a little town not far from Timisoara, Romania. I grew up
+              drawing, solving math problems, reading, and putting together
+              puzzles. I always considered myself a creative person, a
+              visualizer rather than an analytical person. When I first got into
+              Informatics and coding in high school, I was thrilled. I set my
+              mind that I'm gonna be a programmer someday and I worked hard for
+              it. Of course, it wasn't a pleasant course, rather an exhausting,
+              stress-inducing, and fearful ride. There were so many times I
+              wanted to just quit, but I am glad I didn't. The road is long and
+              I still have so much to do, but I'm happy I disciplined myself and
+              chose this path.
+            </p>
+            <h3 class="mx-4">Where I'm headed</h3>
+            <p class="mb-4 mx-4">
+              I am at an early stage in my career so I'm keen on gaining
+              experience in all fields of software development, however, I've
+              grown to love front-end development. Something is satisfying about
+              being able to make changes to code and instantly seeing it
+              reflected on a web page for everyone to see. I want to work on
+              bigger projects, besides intelligent and creative people, to
+              learn, to create, to develop.
+            </p>
+            <h2 class="text-center py-5">'~'</h2>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <footer id= "contact-section" class="by-5 py-5">
-        <div class="container">
-         <h2 class="text-center mb-4">Contact</h2>
-         <div class="container col-lg-4 mb-4  text-center">
+    <footer id="contact-section" class="by-5 py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <div class="container col-lg-4 mb-4 text-center">
           <h5>Thank you for visiting! Want to get in touch?</h5>
-         </div>
         </div>
-        <div class="container col-lg-4 text-center">
-          <a class="btn btn-danger me-2" href="mailto:ungur.alexandra.au@gmail.com" role="button">Email</a>
-          <a class="btn btn-primary me-2" href="https://www.linkedin.com/in/alexandra-ungur" role="button" target="_blank">LinkedIn</a>
-          <a class="btn btn-secondary me-2" href="https://github.com/AleUngur" role="button" target="_blank">GitHub</a>
-        </div>
-      </footer>
+      </div>
+      <div class="container col-lg-4 text-center">
+        <a
+          class="btn btn-danger me-2"
+          href="mailto:ungur.alexandra.au@gmail.com"
+          role="button"
+          >Email</a
+        >
+        <a
+          class="btn btn-primary me-2"
+          href="https://www.linkedin.com/in/alexandra-ungur"
+          role="button"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          class="btn btn-secondary me-2"
+          href="https://github.com/AleUngur"
+          role="button"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
+    </footer>
 
-      <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+    <a
+      href="#"
+      id="toTopBtn"
+      class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
+      data-abc="true"
+    ></a>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
