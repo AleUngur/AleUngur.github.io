@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Hangman</title>
+  </head>
+  <body>
+    <div class="row justify-content-center container">
+      <div class="col my-4 position-relative container">
+        <h1 class="position-absolute top-50 start-50 translate-middle">
+          Hangman
+        </h1>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div
+        class="col-md-4 sm-6 position-relative"
+        style="background-color: #14213d"
+      >
+        <h3
+          class="position-absolute top-50 start-50 translate-middle"
+          style="color: white"
+          id="lives"
+        >
+          Lives
+      </div>
+      <div class="col-md-4 sm-6">
+        <div class="row justify-content-center container">
+          <div class="mb-3 mx-1 container">
+            <input
+              type="text"
+              class="form-control mb-1"
+              id="word-input"
+              placeholder="add a word and push start"
+            />
+            <button
+              type="submit"
+              class="btn btn-danger"
+              onclick="addWord(); displayLines(); displayLives();"
+            >
+              Start
+            </button>
+          </div>
+        </div>
+
+        <div class="row justify-content-center container">
+          <div class="row container">
+            <!--primul rand de butoane-->
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "a"
+                onclick="guessLetter(this.id)"
+              >
+                A
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "b"
+                onclick="guessLetter(this.id)"
+              >
+                B
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "c"
+                onclick="guessLetter(this.id)"
+              >
+                C
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "d"
+                onclick="guessLetter(this.id)"
+              >
+                D
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "e"
+                onclick="guessLetter(this.id)"
+              >
+                E
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "f"
+                onclick="guessLetter(this.id)"
+              >
+                F
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "g"
+                onclick="guessLetter(this.id)"
+              >
+                G
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <!--al doilea rand de butoane-->
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "h"
+                onclick="guessLetter(this.id)"
+              >
+                H
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "i"
+                onclick="guessLetter(this.id)"
+              >
+                I
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "j"
+                onclick="guessLetter(this.id)"
+              >
+                J
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "k"
+                onclick="guessLetter(this.id)"
+              >
+                K
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "l"
+                onclick="guessLetter(this.id)"
+              >
+                L
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "m"
+                onclick="guessLetter(this.id)"
+              >
+                M
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "n"
+                onclick="guessLetter(this.id)"
+              >
+                N
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <!--al treilea rand de butoane-->
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "o"
+                onclick="guessLetter(this.id)"
+              >
+                O
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "p"
+                onclick="guessLetter(this.id)"
+              >
+                P
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "q"
+                onclick="guessLetter(this.id)"
+              >
+                Q
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "r"
+                onclick="guessLetter(this.id)"
+              >
+                R
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "s"
+                onclick="guessLetter(this.id)"
+              >
+                S
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "t"
+                onclick="guessLetter(this.id)"
+              >
+                T
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "u"
+                onclick="guessLetter(this.id)"
+              >
+                U
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <!--al patrulea rand de butoane-->
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "v"
+                onclick="guessLetter(this.id)"
+              >
+                V
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "w"
+                onclick="guessLetter(this.id)"
+              >
+                W
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "x"
+                onclick="guessLetter(this.id)"
+              >
+                X
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "y"
+                onclick="guessLetter(this.id)"
+              >
+                Y
+              </button>
+            </div>
+            <div class="col-1 my-2 mx-2">
+              <button
+                type="button"
+                class="btn btn-warning"
+                style="height: 40px; width: 40px"
+                id = "z"
+                onclick="guessLetter(this.id)"
+              >
+                Z
+              </button>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5"></div>
+    <div class="row justify-content-center mt-5" id="word-lines"></div>
+    <div class="row justify-content-center mt-5" id="mess"></div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
