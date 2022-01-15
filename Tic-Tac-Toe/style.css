@@ -1,0 +1,45 @@
+body {
+  background-color: #293241;
+}
+
+#title {
+  width: 200px;
+  color: white;
+}
+
+#hint {
+  color: white;
+}
+
+.tic-tac-toe #gameboard {
+  width: 60vmin;
+  height: 60vmin;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.tic-tac-toe button {
+  width: 20vmin;
+  height: 20vmin;
+  background: white;
+  border: 3px solid #293241;
+  margin: 0;
+  font: 0/0 transparent;
+}
+
+.tic-tac-toe [aria-label="X"] {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201%201%22%3E%3Cline%20x1%3D%220.1%22%20y1%3D%220.1%22%20x2%3D%220.9%22%20y2%3D%220.9%22%20stroke-width%3D%220.1%22%20stroke%3D%22red%22%2F%3E%3Cline%20x1%3D%220.1%22%20y1%3D%220.9%22%20x2%3D%220.9%22%20y2%3D%220.1%22%20stroke-width%3D%220.1%22%20stroke%3D%22red%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.tic-tac-toe [aria-label="O"] {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201%201%22%3E%3Ccircle%20cx%3D%220.5%22%20cy%3D%220.5%22%20r%3D%220.4%22%20fill%3D%22none%22%20stroke-width%3D%220.1%22%20stroke%3D%22blue%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.tic-tac-toe .highlighted {
+  background-color: #ffcb77;
+}
+
+.success {
+  background-color: #ffcb77;
+}
