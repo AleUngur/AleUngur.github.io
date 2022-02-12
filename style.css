@@ -10,6 +10,7 @@
 }
 .nav-item {
   align-items: right;
+  font-size: 20px;
 }
 
 .carousel-image {
@@ -19,6 +20,7 @@
 
 #skills-section {
   background-color: #84a59d;
+  color: white;
 }
 .skills-1 .card-body {
   background-color: #b583b1;
