@@ -20,9 +20,17 @@
 #skills-section {
   background-color: #84a59d;
 }
-.fab > i {
-  height: 100px;
-  width: 100px;
+.skills-1 .card-body {
+  background-color: #b583b1;
+}
+.skills-2 .card-body {
+  background-color: #f2c9c3;
+}
+.skills-3 .card-body {
+  background-color: #f28582;
+}
+.card-title h5 {
+  color: #f7ede3;
 }
 
 #projects-section {
