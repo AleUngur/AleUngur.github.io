@@ -20,9 +20,17 @@ As I am at an early stage of my career as a front-end developer, I made this web
 ## Projects:low_brightness:
  
  The projects I included in the portfolio are:
- * Weather App - Javascript
- * Remember App/To do list - Javascript
  * Old Portfolio - CSS
+ * Guessing game - JS
+ * Stock chart - JS + API
+ * Dictionary - JS + Bootstrap
+ * Weather App - JS + API
+ * Hangman - JS + Bootstrap
+ * Tic Tac Toe - JS
+ * Sudoku - JS
+ * Snake - JS
+ 
+ 
  * other projects in the making :soon:
 
 ## Go to website :rocket:
